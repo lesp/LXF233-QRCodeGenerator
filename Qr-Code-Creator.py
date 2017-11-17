@@ -14,7 +14,7 @@ def QRCreator(URL, image, save):
     save_name=save,
     save_dir="/home/pi/"
     )
-    eg.msgbox(msg="Here is your QR code, saved to /home/pi/"+save, title="Save Complete")
+    eg.msgbox(msg="Your QR code has been saved to /home/pi/"+save, title="Save Complete")
 
 URL = eg.enterbox(msg="Please provide the URL for the QR code", title="Specify URL for QR code")
 print(URL)
